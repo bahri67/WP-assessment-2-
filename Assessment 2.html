@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Football World</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #004d00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #006600;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    h2 {
+      color: #004d00;
+    }
+    img, video, audio {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+    .player-img {
+      width: 300px;
+      height: 350px;
+      object-fit: cover;
+    }
+    form {
+      background-color: #e6ffe6;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+      background-color: #006600;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+    footer {
+      background-color: #004d00;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Football World</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#history">History</a>
+    <a href="#players">Famous Players</a>
+    <a href="#media">Media Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Football World</h2>
+    <p>Football, also known as soccer, is the world’s most popular sport played by millions across the globe. It brings people together with excitement, passion, and team spirit.</p>
+    <img src="C:\Users\Mohammed\Downloads\assessment 2 WEB PR\Football pitch.jpg">
+  </section>
+
+<section id="history">
+  <h2>History of Football</h2>
+  <p>
+    Football, also known as soccer in some countries, has ancient roots going back thousands of years, 
+    with early forms played in China, Greece, and Rome. The modern version began to take shape in the 
+    19th century in England, where standardized rules were introduced in 1863 with the formation of 
+    The Football Association. From there, the sport spread rapidly across the globe, becoming the 
+    world’s most popular and widely played game.
+  </p>
+  <img src="C:\Users\Mohammed\Downloads\assessment 2 WEB PR\old football.jpeg" alt="Old Football Image">
+</section>
+
+
+  <section id="players">
+    <h2>Famous Football Players</h2>
+
+    <h3>Lionel Messi</h3>
+    <img class="player-img" src="C:\Users\Mohammed\Downloads\assessment 2 WEB PR\messi.jpeg">
+    <p>Lionel Messi is widely considered one of the greatest football players of all time. He has won numerous Ballon d'Or awards and led Argentina to World Cup victory in 2022.</p>
+
+    <h3>Cristiano Ronaldo</h3>
+    <img class="player-img" src="C:\Users\Mohammed\Downloads\assessment 2 WEB PR\CR7.JPEG">
+    <p>Cristiano Ronaldo is known for his speed, strength, and goal-scoring ability. He has played for top clubs like Manchester United, Real Madrid, and Juventus, and won multiple international trophies with Portugal.</p>
+
+    <h3>Pelé</h3>
+    <img class="player-img" src="C:\Users\Mohammed\Downloads\assessment 2 WEB PR\pele.jpeg">
+    <p>Pelé was a Brazilian football legend and a three-time World Cup winner. He scored over 1,000 goals during his career and is remembered as a symbol of Brazilian football excellence.</p>
+  </section>
+
+  <section id="media">
+    <h2>Media Gallery</h2>
+
+    <video controls>
+      <source src="C:\Users\Mohammed\Downloads\assessment 2 WEB PR\FB.MP4">
+      Your browser does not support the video tag.
+    </video>
+    <p>This video gives a glimpse into the world of football: energy, movement, and emotion on the pitch.</p>
+
+    <audio controls>
+      <source src="C:\Users\Mohammed\Downloads\assessment 2 WEB PR\FB music.MP3">
+      Your browser does not support the audio element.
+    </audio>
+	    <p>Listen to the crowd cheer on the players with passion and energy!</p>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Football World. All rights reserved.
+  </footer>
+
+</body>
+</html>
